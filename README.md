@@ -6,7 +6,7 @@
 
 git clone git@github.com:Denchik24/kittygram_final.git cd kittygram Создайте файл .env и заполните его своими данными. Перечень данных указан в корневой директории проекта в файле .env.example.
 
-Создание Docker-образов Замените username на ваш логин на DockerHub:
+# Создание Docker-образов Замените username на ваш логин на DockerHub:
 
 имя пользователя для сборки внешнего интерфейса docker /kittygram_frontend . cd ../ имя пользователя для сборки внутреннего интерфейса docker/kittygram_backend . cd ../ имя пользователя для сборки nginx docker /kittygram_gateway . Загрузите образы на DockerHub:
 
