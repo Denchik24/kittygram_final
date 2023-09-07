@@ -1,24 +1,24 @@
 # Описание проекта Kittygram - сервис для любителей котиков.
 
-#   Что умеет проект:
+##   Что умеет проект:
 Добавлять, просматривать, редактировать и удалять котиков. Добавлять новые и присваивать уже существующие достижения. Просматривать чужих котов и их достижения. 
 
-#   Установка 
+##   Установка 
 Клонируйте репозиторий на свой компьютер:
 git clone git@github.com:Denchik24/kittygram_final.git cd kittygram Создайте файл .env и заполните его своими данными. Перечень данных указан в корневой директории проекта в файле .env.example.
 
-#   Создание Docker-образов 
+##   Создание Docker-образов 
 Замените username на ваш логин на DockerHub:
 имя пользователя для сборки внешнего интерфейса docker /kittygram_frontend . cd ../ имя пользователя для сборки внутреннего интерфейса docker/kittygram_backend . cd ../ имя пользователя для сборки nginx docker /kittygram_gateway.
 Загрузите образы на DockerHub:
 docker push username/kittygram_frontend docker push username/kittygram_backend docker push username/kittygram_gateway 
 
-#   Деплой на сервере Подключитесь к удаленному серверу
+##  Деплой на сервере Подключитесь к удаленному серверу
 ssh -i путь_до_файла_с_SSH_ключом/название_файла_с_SSH_ключом имя_пользователя@ip_адрес_сервера 
 Создайте на сервере директорию kittygram через терминал
 mkdir kittygram 
-#   Установка docker compose на сервер:
 
+##   Установка docker compose на сервер:
 sudo apt update sudo apt install curl curl -fSL https://get.docker.com -o get-docker.sh sudo sh ./get-docker.sh sudo apt-get install docker-compose-plugin
 В директорию kittygram/ скопируйте файлы docker-compose.production.yml и .env:
 scp -i path_to_SSH/SSH_name docker-compose.production.yml username@server_ip:/home/username/kittygram/docker-compose.production.yml
@@ -42,7 +42,7 @@ nginx: синтаксис файла конфигурации /etc/nginx/nginx.c
 Перезапускаем Nginx
 sudo service nginx reload
 
-#   Настройка CI/CD 
+##  Настройка CI/CD 
 Файл workflow уже написан. Он находится в директории kittygram/.github/workflows/main.yml Для адаптации его на своем сервере добавьте секреты в GitHub Actions:
 DOCKER_USERNAME # имя пользователя в DockerHub
 DOCKER_PASSWORD # пароль пользователя в DockerHub 
