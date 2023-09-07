@@ -1,6 +1,6 @@
 
 # Описание проекта Kittygram - сервис для любителей котиков.
-<div id="header" align="left">  <img src="[https://99px.ru/sstorage/86/2022/08/image_861608220218568351111.gif](https://yandex.ru/images/search?from=tabbar&img_url=https%3A%2F%2Fsunveter.ru%2Fuploads%2Fposts%2F2021-05%2F1621974121_kotenok-12.gif&lr=120836&pos=18&rpt=simage&text=котик%20gif)" width="200"/> </div>
+<div id="header" align="left">  <img src="https://99px.ru/sstorage/86/2023/03/image_862403231432334212010.gif" width="200"/> </div>
 
 ##   Что умеет проект:
 Добавлять, просматривать, редактировать и удалять котиков. Добавлять новые и присваивать уже существующие достижения. Просматривать чужих котов и их достижения. 
