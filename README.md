@@ -1,6 +1,7 @@
 
 # Kittygram - сервис для любителей котиков.
 <div id="header" align="left">  <img src="https://99px.ru/sstorage/86/2023/03/image_86160323111137975234.gif" width="200"/> </div>
+
 ![workflow](https://github.com/Denchik24/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 ## Технологии
