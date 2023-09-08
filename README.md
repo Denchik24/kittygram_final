@@ -1,7 +1,12 @@
 
-# Описание проекта Kittygram - сервис для любителей котиков.
+# Kittygram - сервис для любителей котиков.
 <div id="header" align="left">  <img src="https://99px.ru/sstorage/86/2023/03/image_86160323111137975234.gif" width="200"/> </div>
+![workflow](https://github.com/Denchik24/kittygram_final/actions/workflows/main.yml/badge.svg)
 
+## Технологии
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=blue) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+
+___
 ##   Что умеет проект:
 Добавлять, просматривать, редактировать и удалять котиков. Добавлять новые и присваивать уже существующие достижения. Просматривать чужих котов и их достижения. 
 
